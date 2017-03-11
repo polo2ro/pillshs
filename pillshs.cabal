@@ -3,8 +3,8 @@ version:            0.1.0.0
 Synopsis:           Pills is a css grid layout, pillshs is pills rewritten with clay
 Author:             Paul de Rosanbo <paul@rosanbo.com>
 Maintainer:         Paul de Rosanbo <paul@rosanbo.com>
-Homepage:           http://jaspervdj.be/hakyll
-Bug-Reports:        http://github.com/jaspervdj/Hakyll/issues
+Homepage:           http://rosanbo.com/
+Bug-Reports:        http://github.com/polo2ro/pillshs/issues
 License:            MIT
 License-File:       LICENSE
 Category:           Web
@@ -17,7 +17,7 @@ Library
   Hs-Source-Dirs: src
   Exposed-Modules:
     PillsHs
-    PillsHs.reset
-    PillsHs.mixins
+    PillsHs.Reset
+    PillsHs.Mixins
   build-depends:    base == 4.*
                   , clay == 0.11
