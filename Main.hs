@@ -1,11 +1,10 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
 
-import Control.Monad
-import Data.Text (pack)
+import Clay
 import Prelude
 import PillsHs
 
 
 main :: IO ()
-main = putCss PillsHs
+main = putCss pillsGrid

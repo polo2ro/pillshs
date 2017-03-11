@@ -1,3 +1,3 @@
 #!/bin/bash
 
-runhaskell -i./src PillsHs
+runhaskell -i./src Main
