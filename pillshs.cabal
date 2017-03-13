@@ -13,11 +13,12 @@ cabal-version:      >= 1.10
 
 
 Library
-  Ghc-Options:    -Wall
-  Hs-Source-Dirs: src
-  Exposed-Modules:
-    PillsHs
-    PillsHs.Reset
-    PillsHs.Mixins
-  build-depends:    base == 4.*
-                  , clay == 0.11
+    default-language: Haskell2010
+    Ghc-Options: -Wall
+    Hs-Source-Dirs: src
+    Exposed-Modules:
+        PillsHs
+        PillsHs.Reset
+        PillsHs.Mixins
+    build-depends:    base == 4.*
+                    , clay == 0.12.1
